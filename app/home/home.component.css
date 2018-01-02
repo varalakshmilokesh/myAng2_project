@@ -1,0 +1,123 @@
+
+ h3{
+ 
+  height: 100px;
+  
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+h4{
+    height: 100px;
+    
+    vertical-align: middle;
+    
+    font-weight:normal;
+    font-size: 17px;
+    margin-top:-50px;
+}
+.btn-round i{
+	font-size:20px;
+	top:15px;
+	position: relative;
+}
+.btn-round{
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	display:inline-block;
+	padding:0;
+}
+.btn{
+	margin-top: -90px;
+	font-size:14px ;
+	line-height: 1;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	display: inline-block;
+	cursor:pointer;
+	user-select:none;
+
+}
+ 
+.fa{
+	display:inline-block;
+	font-family:normal normal normal 14px/1 FontAwesome;
+	font-style:normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: FontAwesome;
+	line-height: 1;
+	text-rendering: auto;
+	transform:translate(0,0);
+	font-style: normal;
+	
+	-webkit-font-smoothing:antialiased;
+	
+}
+
+.btn:hover{
+	text-decoration:none;
+	
+}
+
+
+.social-icons .btn.btn-clear{
+	border:1px solid #fff;
+	border-top-color:rgb(255,255,255);
+	border-top-style:solid;
+	border-top-width:1px;
+	border-left-color:rgb(255,255,255);
+	border-left-style:solid;
+	border-left-width:1px;
+	border-bottom-color:rgb(255,255,255);
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-right-color:rgb(255,255,255);
+	border-right-style:solid;
+	border-right-width: 1px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+
+	color:#fff;
+	
+	
+}
+.btn.btn-clear:hover{
+	
+	background:#fff;
+	background-image: none;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-size: initial;
+	background-repeat-x:initial;
+	background-repeat-y:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-attachment: initial;
+	-webkit-transform:rotate(360deg);
+	font-weight: bold;
+	transition-duration: 0.8s;
+	transition-property: transform;
+}
+.btn.btn-clear.btn-facebook:hover{
+	color:#204385;
+}
+.btn.btn-clear.btn-twitter:hover{
+	color:#2BA9E0;
+}
+.btn.btn-clear.btn-google:hover{
+	color:#D3492C;
+}
+.btn.btn-clear.btn-linkedin:hover{
+	color:#015786;
+}
+.social-icons .btn{
+	margin-right: 15px;
+
+}
